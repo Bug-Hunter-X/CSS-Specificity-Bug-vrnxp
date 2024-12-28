@@ -1,0 +1,17 @@
+/* bugSolution.css */
+.container {
+  background-color: lightblue;
+}
+
+.item {
+  color: blue; 
+}
+
+/* More specific selector overriding general styling fixed by using a more appropriate selector or class*/
+.container .item {
+  color: green;
+}
+/*Using !important is generally discouraged and should be used sparingly*/
+.item.special {
+  color: red !important;
+}
